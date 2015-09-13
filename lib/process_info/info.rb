@@ -14,7 +14,7 @@ module ProcessInfo
     end
 
     def to_h
-      keys.zip(load_process_info).to_h
+      Hash[keys.zip(load_process_info)]
     end
 
     private
