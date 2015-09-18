@@ -52,3 +52,8 @@ You can also mix-and-match your custom keyword map with the default map:
 ProcessInfo.info(1234, :cpu_usage, cpu_time: "cputime")
 # => { cpu_usage: "0.1", cpu_time: "2:09.65" }
 ```
+
+## Similar gems
+ * https://github.com/odin/get_running_processes
+ * https://rubygems.org/gems/process
+ * https://github.com/sriram/Process-Monitor/wiki
